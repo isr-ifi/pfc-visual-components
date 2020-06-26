@@ -1,9 +1,15 @@
 import React from 'react';
 
+import DonutChart from './components/DonutChart';
+import DonutChart2 from './components/DonutChart2';
+import PieChart from './components/PieChart';
+
 export const ExampleComponent = ({ text }) => {
   return <div>Library is working: {text}</div>
 }
 
-export { default as DonutChart } from './components/DonutChart';
-export { default as DonutChart2 } from './components/DonutChart2';
-export { default as PieChart } from './components/PieChart';
+export const visualComponentDict = {
+  donut_chart: DonutChart,
+  donut_chart_2: DonutChart2,
+  pie_chart: PieChart
+}
