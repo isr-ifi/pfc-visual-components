@@ -24,8 +24,10 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "dependencies": {
     "apexcharts": "^3.10.1",
-    "react": "^16.0.0",
     "react-apexcharts": "^1.3.3"
   },
   "devDependencies": {
