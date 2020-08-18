@@ -1,0 +1,21 @@
+.liquidFillGaugeText {
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.card {
+  overflow: hidden;
+}
+
+
+.carbon-budget-left {
+  float: left;
+  width: 620px !important;
+
+}
+
+.carbon-budget-right {
+  float: right;
+  width: 620px
+
+}

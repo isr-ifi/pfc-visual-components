@@ -15,6 +15,8 @@
     "react-apexcharts": "file:../node_modules/react-apexcharts",
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "file:../node_modules/react-scripts",
+    "react-redux": "file:../node_modules/react-redux",
+    "redux": "file:../node_modules/redux",
     "visual-components": "file:.."
   },
   "devDependencies": {
