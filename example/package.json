@@ -10,13 +10,18 @@
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "file:../node_modules/@fortawesome/fontawesome-svg-core",
+    "@fortawesome/free-solid-svg-icons": "file:../node_modules/@fortawesome/free-solid-svg-icons",
+    "@fortawesome/react-fontawesome": "file:../node_modules/@fortawesome/react-fontawesome",
     "apexcharts": "file:../node_modules/apexcharts",
     "react": "file:../node_modules/react",
     "react-apexcharts": "file:../node_modules/react-apexcharts",
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "file:../node_modules/react-scripts",
+    "react-spring": "file:../node_modules/react-spring",
     "react-redux": "file:../node_modules/react-redux",
     "redux": "file:../node_modules/redux",
+    "react-svg": "file:../node_modules/react-svg",
     "visual-components": "file:.."
   },
   "devDependencies": {
