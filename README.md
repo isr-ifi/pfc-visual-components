@@ -1,14 +1,22 @@
 # visual-components
 
-> Visual Components
-
-[![NPM](https://img.shields.io/npm/v/visual-components.svg)](https://www.npmjs.com/package/visual-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
-## Install
+## Install library as dependency
 
 ```bash
-npm install --save visual-components
+npm install --save https://github.com/isr-ifi/pfc-visual-components#master
 ```
+
+## Installing dependencies for runnung example app
+```bash
+npm install
+cd example
+npm install
+```
+
+## Runnung example app
+Step 1: cd into the project and run npm start. This will watch the src/ module and recompile it into dist/ whenever you make changes.
+
+Step 2: Open a 2nd command line, cd into the /example folder and run npm start.
 
 ## Usage
 
